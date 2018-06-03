@@ -14,22 +14,8 @@ html
                 div(class="mainMenu")
                     img(src="/img/send.png" id="logo")
                     div(class="linkMenu")
-                        a(class="onelink") lien1
+                        a(class="onelink", href="/") lien1
                         a(class="onelink") lien2
                         a(class="onelink") lien3
         main
             block main
-        block footer
-            footer
-                nav
-                    ul
-                        if loggedInUser
-                            li
-                                a(href="/articles/new") New article
-                            li
-                                a(href="/logout") Log out
-                        else
-                            li
-                                a(href="/signin") Sign in
-                            li
-                                a(href="/signup") Sign up

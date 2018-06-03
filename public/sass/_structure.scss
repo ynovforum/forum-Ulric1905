@@ -1,0 +1,40 @@
+.flex{
+  display: flex;
+}
+.titleflex{
+  width: 100%;
+  border: 1px solid grey;
+}
+.borderRadius{
+  border-radius: 5px;
+}
+.greenbutton{
+  background-color: $greencoloreBtn;
+  color: white;
+  border: solid 1px gray;
+  border-radius: 5px;
+}
+.flexButton{
+  display: flex;
+  width: 100%;
+}
+.right{
+  float: right;
+}
+.leftMenu{
+  margin-left: 10%;
+  display: grid;
+  position: absolute;
+  max-width: 10%;
+  margin-right: 0%;
+}
+.rightMenu{
+  margin-left: 30%;
+  width: 60%;
+}
+#logo{
+  height: 60px;
+  width: 60px;
+  background-color: dodgerblue;
+  border-radius: 5px;
+}

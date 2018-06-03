@@ -1,0 +1,84 @@
+.optionUser{
+  background-color: white;
+  width: 45%;
+  text-align: center;
+  margin-left: 5%;
+  padding: 1%;
+  margin-right: 5%;
+  margin-top: 2%;
+  p{
+    margin: 0px;
+    width: 70%;
+  }
+  img{
+    width: 100%;
+    background-color: $graycolore;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  button a{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+  }
+}
+.myprofil{
+  max-width: 3%;
+  background-color: dodgerblue;
+  overflow: hidden;
+  border-radius: 50px;
+  margin-top: -2%;
+
+}
+
+.usr{
+  padding-right: 2%;
+  padding-left: 0%;
+  margin-top: 0%;
+  border: solid 1px black;
+  padding-bottom: 2%;
+}
+.User{
+  width: 50%;
+  padding: 1%;
+  article{
+    padding: 3%;
+  }
+  h3{
+    font-size: 15px;
+
+  }
+  .pp{
+    width: 50%;
+    img{
+      width: 100px;
+      overflow: hidden;
+      border-radius: 50px;
+      margin-top: -2%;
+      margin-left: 20%;
+    }
+
+  }
+  .name{
+    margin-top: auto;
+    margin-bottom: auto;
+
+    input{
+      height: 22px;
+    }
+  }
+}
+.otherInfo{
+  margin-top: 2%;
+}
+
+.otherChoice{
+  margin-left: auto;
+  margin-right: auto;
+  color: gray;
+  text-decoration: none;
+}
+.myInfo{
+  position: absolute;
+  width: 10%;
+}

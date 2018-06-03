@@ -13,10 +13,11 @@ block main
 
             if ( (user.role === "admin") || (article.userId === user.id) )
                 a(href="/articles/article/" + article.id)
-                    button Edit
+                    button(class="greenbutton") Edit
                     if (user.role === "admin")
+                        br
                         form(method="POST" action="/delete/article/" + article.id )
-                            input(class="btn btn-info btn-lg", type="submit", value="delete")
+                            button(class="btn btn-info btn-lg greenbutton", ) delete
 
 
         for comment in article.comments
